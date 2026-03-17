@@ -1,0 +1,6 @@
+#CALCULAR AREA DO TRIANGULO
+
+base = float(input("qual o tamanho da base de seu triangulo? ")) 
+altura = float(input("qual a altura de seu triangulo? "))
+formula = (base * altura) / 2
+print(formula)
