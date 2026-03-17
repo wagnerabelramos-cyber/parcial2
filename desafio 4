@@ -1,0 +1,16 @@
+#CALCULADORA
+
+n1 = float(input("escolha um numero "))
+n2 = float(input("escolha outro numero "))
+operação = input("escolha uma operação [soma, subtração, divisão ou multiplicação]")
+
+if operação == "soma":
+    print(n1 + n2)
+elif operação == "subtração":
+    print(n1-n2)
+elif operação == "multiplicação":
+    print(n1*n2)
+elif operação == "divisão":
+    print(n1/n2)
+else: 
+    print('esse numero não existe')
