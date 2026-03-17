@@ -1,0 +1,4 @@
+n1 = float(input("escolha um numero "))
+n2 = float(input("escolha outro numero "))
+soma = (n1 + n2)
+print("seu valor somado é", soma)
