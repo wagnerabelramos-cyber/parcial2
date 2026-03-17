@@ -1,0 +1,11 @@
+segundos = int(input("fale a quantidade de segundos"))
+minutos = (segundos / 60)
+horas = (segundos / 3600)
+
+print("essa quantidade de segundos resulta em", horas,"horas", "ou", minutos, "minutos ou continua sendo", segundos, "segundos")
+
+h = int(input("fale quantas horas"))
+s = (h * 3600)
+m = (h * 60)
+
+print("essa quantidade de horas resulta em", h,"horas", "ou", m, "minutos ou continua sendo", s, "segundos")
