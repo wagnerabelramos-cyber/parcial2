@@ -1,0 +1,4 @@
+#LISTA DE 5 COISAS AI   
+
+objetos_de_apoio = ["cadeira de rodas","bengala","muletas","andador","protese"]
+print(objetos_de_apoio)
