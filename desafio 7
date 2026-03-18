@@ -1,0 +1,7 @@
+C = float(input("quanto de capital você possui?    "))
+I = float(input("quanto qual a taxa?    "))
+T = float(input("em quanto tempo?    "))
+
+J = (C *I* T) / 100 
+
+print(J)
