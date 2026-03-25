@@ -1,7 +1,0 @@
-#IDENTIFICADOR DE NUMEROS PARES
-
-numero = int(input("escolha um numero aleatório:  "))
-if  numero % 2 == 0:
-    print("esse numero é par")
-else:
-    print("esse numero numero é impar")
