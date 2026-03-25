@@ -1,5 +1,14 @@
-# deixa a lista montada com os objetos  
-objetos_de_apoio = ["cadeira de rodas","bengala","muletas","andador","protese"]
+#pede ao usuario os nomes desejados
 
-# mostra os objetos de dentro da lista
-print(objetos_de_apoio)
+nome1 = input('escolha um nome  ')  
+nome2 = input('escolha um nome  ')  
+nome3 = input('escolha um nome  ')  
+nome4 = input('escolha um nome  ')
+nome5 = input('escolha um nome  ')  
+
+#armazena os nomes escolhidos
+
+nomes = [nome1, nome2, nome3, nome4, nome5]
+
+# mostra os nomes de dentro da lista
+print(nomes)
